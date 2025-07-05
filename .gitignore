@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+*.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Artifacts
+data/
+artifacts/
+models/
+logs/
+mlruns/
+
+# DVC
+*.dvc
+.cache/
+.dvc/
+
+# Docker
+*.log
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
