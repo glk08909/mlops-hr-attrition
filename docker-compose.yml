@@ -1,0 +1,34 @@
+services:
+  mlflow:
+    image: ghcr.io/mlflow/mlflow
+    ports:
+      - "5001:5000"  # MLflow UI → localhost:5001
+    volumes:
+      - ./mlflow:/mlflow
+    environment:
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
+      AWS_ACCESS_KEY_ID: minioadmin
+      AWS_SECRET_ACCESS_KEY: minioadmin
+    command: >
+      mlflow server
+      --backend-store-uri sqlite:///mlflow/mlflow.db
+      --default-artifact-root s3://mlflow/
+      --host 0.0.0.0
+
+  minio:
+    image: minio/minio
+    ports:
+      - "9000:9000"  # MinIO API
+      - "9001:9001"  # MinIO Console → localhost:9001
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - ./minio/data:/data
+    command: server /data --console-address ":9001"
+
+  prefect:
+    image: prefecthq/prefect:2.14-python3.10
+    ports:
+      - "4200:4200"  # Prefect UI → localhost:4200
+    command: prefect server start

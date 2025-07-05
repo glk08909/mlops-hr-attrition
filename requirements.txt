@@ -1,18 +1,31 @@
-pandas
-scikit-learn
-mlflow
+# pandas
+# scikit-learn
+# mlflow
+# fastapi
+# uvicorn
+# prometheus_client
+# pytest
+# flake8
+# pre-commit
+# prefect
+# Flask
+# joblib
+# pandas
+# numpy
+# fastapi
+# pydantic
+# mlflow
+# prefect
+# pandas
+# scikit-learn
+# fastapi
+# uvicorn
+# evidently
+# boto3
 fastapi
 uvicorn
-prometheus_client
-pytest
-flake8
-pre-commit
-prefect
-Flask
-joblib
+mlflow
 pandas
-numpy
-fastapi
-pydantic
-
+scikit-learn
+python-multipart
 
