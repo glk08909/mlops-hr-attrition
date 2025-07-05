@@ -5,6 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import os
 
+
 def train_and_log_model(X_train, X_test, y_train, y_test):
     # Start MLflow experiment
     mlflow.set_experiment("Employee_Attrition_Prediction")

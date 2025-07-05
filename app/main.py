@@ -17,6 +17,7 @@ class EmployeeData(BaseModel):
     DistanceFromHome: int
     # Add all required fields here...
 
+
 @app.post("/predict")
 def predict(data: EmployeeData):
     df = pd.DataFrame([data.dict()])

@@ -7,7 +7,7 @@ import numpy as np
 app = FastAPI(
     title="Employee Attrition Prediction API",
     description="Predicts employee attrition using a trained Random Forest model.",
-    version="1.0.0"
+    version="1.0.0",
 )
 
 # Load trained model
@@ -51,15 +51,42 @@ class EmployeeData(BaseModel):
 @app.post("/predict")
 def predict(data: EmployeeData):
     try:
-        input_data = np.array([[ 
-            data.Age, data.BusinessTravel, data.DailyRate, data.Department, data.DistanceFromHome,
-            data.Education, data.EducationField, data.EnvironmentSatisfaction, data.Gender, data.HourlyRate,
-            data.JobInvolvement, data.JobLevel, data.JobRole, data.JobSatisfaction, data.MaritalStatus,
-            data.MonthlyIncome, data.NumCompaniesWorked, data.OverTime, data.PercentSalaryHike, data.PerformanceRating,
-            data.StockOptionLevel, data.TotalWorkingYears, data.TrainingTimesLastYear, data.WorkLifeBalance,
-            data.YearsAtCompany, data.YearsInCurrentRole, data.YearsSinceLastPromotion, data.YearsWithCurrManager,
-            data.StandardHours, data.JobRoleLevel
-        ]])
+        input_data = np.array(
+            [
+                [
+                    data.Age,
+                    data.BusinessTravel,
+                    data.DailyRate,
+                    data.Department,
+                    data.DistanceFromHome,
+                    data.Education,
+                    data.EducationField,
+                    data.EnvironmentSatisfaction,
+                    data.Gender,
+                    data.HourlyRate,
+                    data.JobInvolvement,
+                    data.JobLevel,
+                    data.JobRole,
+                    data.JobSatisfaction,
+                    data.MaritalStatus,
+                    data.MonthlyIncome,
+                    data.NumCompaniesWorked,
+                    data.OverTime,
+                    data.PercentSalaryHike,
+                    data.PerformanceRating,
+                    data.StockOptionLevel,
+                    data.TotalWorkingYears,
+                    data.TrainingTimesLastYear,
+                    data.WorkLifeBalance,
+                    data.YearsAtCompany,
+                    data.YearsInCurrentRole,
+                    data.YearsSinceLastPromotion,
+                    data.YearsWithCurrManager,
+                    data.StandardHours,
+                    data.JobRoleLevel,
+                ]
+            ]
+        )
 
         print(f"Input data shape: {input_data.shape}")
         print(model.feature_names_in_)
@@ -69,4 +96,3 @@ def predict(data: EmployeeData):
 
     except Exception as e:
         return {"error": str(e)}
-
