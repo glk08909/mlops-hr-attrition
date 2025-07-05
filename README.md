@@ -55,8 +55,12 @@ A binary classification problem — predict if an employee will leave (Attrition
 # Flow
  ![image](https://github.com/user-attachments/assets/7df04c28-1921-4df2-a5a6-1866a97476f6)
 
+ 
+
 # Employee Attrition Prediction API
 ![image](https://github.com/user-attachments/assets/7c484958-0534-45fb-a31f-52cb2c505061)
+
+
 
 # Sample Request object
 {
@@ -91,9 +95,13 @@ A binary classification problem — predict if an employee will leave (Attrition
   "StandardHours": 0,
   "JobRoleLevel": 0
 }
+
 ![Screenshot 2025-07-03 at 9 40 51 PM](https://github.com/user-attachments/assets/12a997c0-401e-4f7d-a2e7-39e497ef49bf)
 
+
+
 ![Screenshot 2025-07-03 at 8 35 10 PM](https://github.com/user-attachments/assets/ae81f35f-80e6-4f21-b210-793024ba4c9e)
+
 
 
 # Response object 
@@ -101,12 +109,16 @@ A binary classification problem — predict if an employee will leave (Attrition
 {
   "attrition_prediction": 1
 }
+
+
 # Response object
 - Scenario : The employee is predicted to stay.
 {
   "attrition_prediction": 0
 }
+
 ![Screenshot 2025-07-03 at 8 34 52 PM](https://github.com/user-attachments/assets/ffcafff1-ca95-4041-9fe6-df51618d6ac4)
+
 
 # Interpretation:
 "attrition_prediction" = 1 → The employee is predicted to leave the company.
@@ -114,14 +126,23 @@ A binary classification problem — predict if an employee will leave (Attrition
 This binary encoding is essential for training classification models like logistic regression, random forests.
 
 # Docker image file.
+
 ![Screenshot 2025-07-05 at 12 52 27 PM](https://github.com/user-attachments/assets/41cac48e-df9f-4d3d-88e7-8f89b2938bf7)
 
+
 ![Screenshot 2025-07-05 at 12 49 15 PM](https://github.com/user-attachments/assets/000a9e62-cd71-4074-acf6-8eeac8031eac)
+
 ![Screenshot 2025-07-05 at 12 48 51 PM](https://github.com/user-attachments/assets/34ef21e0-47c0-4e51-a293-da7609d26083)
+
 ![Screenshot 2025-07-05 at 12 30 42 PM](https://github.com/user-attachments/assets/25f4b059-1ee6-472d-90eb-13a2c6cca7ba)
 
+
 # ML flow
+
 ![Screenshot 2025-07-03 at 7 44 12 PM](https://github.com/user-attachments/assets/9851162b-08f9-4b1c-9939-08444c395f7b)
+
+
 ![Screenshot 2025-07-03 at 7 32 23 PM](https://github.com/user-attachments/assets/d1b598f0-0f2a-4e91-b7e5-6b48c53c860e)
+
 
 
