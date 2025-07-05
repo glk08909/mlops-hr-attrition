@@ -52,11 +52,12 @@ A binary classification problem — predict if an employee will leave (Attrition
 •	Workflow orchestration using Prefect
 •	Clear, reproducible instructions and MLOps best practices in place
 
+
+
 # Flow
  ![image](https://github.com/user-attachments/assets/7df04c28-1921-4df2-a5a6-1866a97476f6)
 
  
-
 # Employee Attrition Prediction API
 ![image](https://github.com/user-attachments/assets/7c484958-0534-45fb-a31f-52cb2c505061)
 
