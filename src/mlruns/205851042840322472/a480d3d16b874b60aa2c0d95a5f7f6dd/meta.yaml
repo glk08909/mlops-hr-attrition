@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/giri/Documents/mlops_attrition_project/src/mlruns/205851042840322472/a480d3d16b874b60aa2c0d95a5f7f6dd/artifacts
+end_time: 1751594664332
+entry_point_name: ''
+experiment_id: '205851042840322472'
+lifecycle_stage: active
+run_id: a480d3d16b874b60aa2c0d95a5f7f6dd
+run_name: unique-newt-148
+run_uuid: a480d3d16b874b60aa2c0d95a5f7f6dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751594661750
+status: 4
+tags: []
+user_id: giri

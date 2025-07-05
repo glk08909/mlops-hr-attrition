@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/giri/Documents/mlops_attrition_project/src/mlruns/205851042840322472/630a916aaf4e4df6a8c59f9f6a0b0379/artifacts
+end_time: 1751595319327
+entry_point_name: ''
+experiment_id: '205851042840322472'
+lifecycle_stage: active
+run_id: 630a916aaf4e4df6a8c59f9f6a0b0379
+run_name: powerful-stoat-598
+run_uuid: 630a916aaf4e4df6a8c59f9f6a0b0379
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751595316745
+status: 3
+tags: []
+user_id: giri

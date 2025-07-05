@@ -1,0 +1,43 @@
+name: Docker Build and Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+
+    - name: 🐍 Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: 🐳 Build Docker image
+      run: docker build -t employee-attrition-api .
+
+    - name: 🛠️ Run Docker container
+      run: docker run -d -p 8000:8000 --name attrition-service employee-attrition-api
+
+    - name: 📋 Check running containers
+      run: docker ps
+
+    - name: 📄 Show logs
+      run: docker logs attrition-service
+
+    - name: 🧹 Clean up container
+      run: |
+        docker stop attrition-service
+        docker rm attrition-service

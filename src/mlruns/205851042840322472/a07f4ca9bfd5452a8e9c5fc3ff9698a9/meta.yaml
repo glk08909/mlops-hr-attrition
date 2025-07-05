@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/giri/Documents/mlops_attrition_project/src/mlruns/205851042840322472/a07f4ca9bfd5452a8e9c5fc3ff9698a9/artifacts
+end_time: 1751594589611
+entry_point_name: ''
+experiment_id: '205851042840322472'
+lifecycle_stage: active
+run_id: a07f4ca9bfd5452a8e9c5fc3ff9698a9
+run_name: upbeat-midge-728
+run_uuid: a07f4ca9bfd5452a8e9c5fc3ff9698a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751594589598
+status: 4
+tags: []
+user_id: giri

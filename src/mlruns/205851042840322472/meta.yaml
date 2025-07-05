@@ -1,0 +1,6 @@
+artifact_location: file:///Users/giri/Documents/mlops_attrition_project/src/mlruns/205851042840322472
+creation_time: 1751594589416
+experiment_id: '205851042840322472'
+last_update_time: 1751594589416
+lifecycle_stage: active
+name: Employee_Attrition_Prediction

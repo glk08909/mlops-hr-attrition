@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/giri/Documents/mlops_attrition_project/src/mlruns/205851042840322472/11e2bddf5bb8454291bca64890626e5a/artifacts
+end_time: 1751594981362
+entry_point_name: ''
+experiment_id: '205851042840322472'
+lifecycle_stage: active
+run_id: 11e2bddf5bb8454291bca64890626e5a
+run_name: blushing-shrew-166
+run_uuid: 11e2bddf5bb8454291bca64890626e5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751594978742
+status: 3
+tags: []
+user_id: giri

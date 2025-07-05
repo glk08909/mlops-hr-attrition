@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/giri/Documents/mlops_attrition_project/src/mlruns/205851042840322472/5a46c3da21784746bc75bbc124799e12/artifacts
+end_time: 1751595203799
+entry_point_name: ''
+experiment_id: '205851042840322472'
+lifecycle_stage: active
+run_id: 5a46c3da21784746bc75bbc124799e12
+run_name: polite-panda-269
+run_uuid: 5a46c3da21784746bc75bbc124799e12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751595201165
+status: 3
+tags: []
+user_id: giri
