@@ -12,7 +12,7 @@ Ultimately, this project demonstrates how to operationalize a machine learning m
 
 ## Problem Description
 
-## Project Title: Employee Attrition Prediction using MLOps Pipeline
+Project Title: Employee Attrition Prediction using MLOps Pipeline
  
   # Problem Overview:
 Employee attrition — when employees voluntarily leave a company — can be costly, disruptive, and detrimental to an organization’s productivity and morale. Being able to predict which employees are at risk of leaving allows HR departments to proactively address issues, retain valuable talent, and reduce recruitment and training expenses.
