@@ -52,8 +52,8 @@ A binary classification problem — predict if an employee will leave (Attrition
 •	Workflow orchestration using Prefect
 •	Clear, reproducible instructions and MLOps best practices in place
 
+# Technologies Used
 
-Technologies Used
 Category	Tools / Technologies
 Programming Language	Python 3.8
 Machine Learning	scikit-learn, pandas
@@ -66,7 +66,8 @@ Workflow Orchestration	Prefect (workflow automation and retraining flows)
 Containerization	Docker (optional use for local deployment or cloud compatibility)
 Monitoring & Logging	Python logging (with potential integration to MinIO, CSV, or alerting services)
 Deployment Scripts	Procfile, start.sh
-Cloud Platform	Render.com
+Cloud Platform	Render.com![image](https://github.com/user-attachments/assets/b0d242de-e9ad-42eb-a434-878602a7f70d)
+
 
 
 # Flow
