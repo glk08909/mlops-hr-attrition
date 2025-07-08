@@ -57,7 +57,7 @@ A binary classification problem — predict if an employee will leave (Attrition
 # Technologies Used
 
 
-Cloud Platform	Render.com![image](https://github.com/user-attachments/assets/b0d242de-e9ad-42eb-a434-878602a7f70d)
+![image](https://github.com/user-attachments/assets/b0d242de-e9ad-42eb-a434-878602a7f70d)
 
 
 
