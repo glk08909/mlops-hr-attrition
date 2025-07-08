@@ -52,20 +52,11 @@ A binary classification problem — predict if an employee will leave (Attrition
 •	Workflow orchestration using Prefect
 •	Clear, reproducible instructions and MLOps best practices in place
 
+
+
 # Technologies Used
 
-Category	Tools / Technologies
-Programming Language	Python 3.8
-Machine Learning	scikit-learn, pandas
-Experiment Tracking & Registry	MLflow (local UI and model registry)
-Model Deployment	FastAPI (served via Uvicorn), Render (cloud deployment platform)
-Testing	pytest, FastAPI TestClient
-Version Control & CI/CD	Git, GitHub, GitHub Actions
-Code Quality & Automation	Black (formatter), Flake8 (linter), Makefile, Pre-commit hooks
-Workflow Orchestration	Prefect (workflow automation and retraining flows)
-Containerization	Docker (optional use for local deployment or cloud compatibility)
-Monitoring & Logging	Python logging (with potential integration to MinIO, CSV, or alerting services)
-Deployment Scripts	Procfile, start.sh
+
 Cloud Platform	Render.com![image](https://github.com/user-attachments/assets/b0d242de-e9ad-42eb-a434-878602a7f70d)
 
 
